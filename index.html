@@ -94,21 +94,32 @@
     <section class="dados">
         <div class="container">
             <form>
-                <label for="formulario">Dados de contato e endereço:<br></label>
-                    <p>Nome: <input type="text" name="nome" value=""><br></p>
-                    <p>Endereço: <input type="text" name="endereco" value=""><br></p>
-                    <p>Telefone: <input type="tel" name="telefone" value=""><br></p>
-                    
-                    <p>Forma de pagamento: <select>
-                        <option value="cc">Cartão de Crédito</option>
-                        <option value="cd">Cartão de Débito</option>
-                        <option value="dinheiro">Dinheiro</option>
-                        <option value="pix">Pix</option>
-                    </select></p>
+                <h2>Dados de contato e endereço:<br></h2>
+                <div>
+                    <label for="">Nome: </label>
+                    <input type="text" name="nome" required="required" placeholder="Digite seu nome">
+                </div>
+                <div>
+                    <label for="">Endereço: </label>
+                    <input type="text" name="endereco" required="required" placeholder="Digite seu endereço">
+                </div>
+                <div>
+                    <label for="">Telefone: </label>
+                    <input type="tel" name="telefone" required="required" placeholder="Digite seu telefone">
+                </div>
+                <div>
+                    <label for="">Selecione a forma de pagamento: </label>
+                    <select required="required" name="pagamento">
+                        <option value="0">Selecione</option>
+                        <option value="1">Cartão de Crédito</option>
+                        <option value="2">Cartão de Débito</option>
+                        <option value="3">Dinheiro</option>
+                        <option value="4">Pix</option>
+                    </select>
+                </div>
             </form>
         </div>
     </section>
-
 
 
 
