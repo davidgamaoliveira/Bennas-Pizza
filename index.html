@@ -108,6 +108,11 @@
                     <input type="tel" name="telefone" required="required" placeholder="Digite seu telefone">
                 </div>
                 <div>
+                    <p>Retirada ou Entrega:</p>
+                    <label for="retirada"><input name="entrega" id="retirada" value="ret" type="radio" >Retirada</label>
+                    <label for="entrega"><input name="entrega" id="entrega" value="ent" type="radio" >Entrega</label>
+                </div>
+                <div>
                     <label for="">Selecione a forma de pagamento: </label>
                     <select required="required" name="pagamento">
                         <option value="0">Selecione</option>
@@ -117,13 +122,24 @@
                         <option value="4">Pix</option>
                     </select>
                 </div>
+                <div>
+                    <label for="">Observações:</label><br>
+                    <textarea name="obs" placeholder="Sem azeitona, sem queijo e sem molho! xD" rows="3" cols="50"></textarea>
+                </div>
+                <div>
+                    <button name="finalizar" value="1" type="submit">Finalizar Pedido</button>
+                </div>
             </form>
         </div>
     </section>
 
-
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 </body>
 
