@@ -12,4 +12,4 @@ To Do:
   - Pagina de contato/localização (Pode ficar no rodapé)
   - Pagina de carrinho/finalização do pedido
   - Integração com a API do WhatsApp
-  - Organização de fontes, imagens e seus respectivos tamanhos.
+  - Organização de cores, fontes, imagens e seus respectivos tamanhos.
